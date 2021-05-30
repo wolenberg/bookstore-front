@@ -32,4 +32,8 @@ export class CategoriaCreateComponent implements OnInit {
         
       });
     }
+
+    CancelParaCategoria() :void {
+      this.router.navigate(["categorias"])
+    }
 }
