@@ -33,6 +33,11 @@ export class LivroService {
     const url = `${this.baseUrl}livros/${livro.id}`
     return this.http.put<Livro>(url, livro)
   }
+
+  delete (id: String) :Observable<void> {
+    const url = `${this.baseUrl}livros/${id}`
+    return this.http.delete<void>(url)
+  }
   
   mensagem(str: String): void {
 
