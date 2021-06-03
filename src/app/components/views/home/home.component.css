@@ -5,9 +5,17 @@
 
 }
 
+.crud{
+    width: 60%;
+    margin: 2rem auto;
+}
+
 @media(max-width: 450px){
 
     .home{
+        width: 70%;
+    }
+    .crud{
         width: 70%;
     }
 }
@@ -17,5 +25,9 @@
     .home{
         width: 80%;
     }
+    .crud{
+        width: 80%;
+    }
 }
+
 
